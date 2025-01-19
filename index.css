@@ -24,7 +24,7 @@ body::before {
 
 .container {
     position: relative;
-    width: 30%;
+    width: 50%;
     margin: 100px auto;
     padding: 20px;
     background-color: rgba(255, 255, 255, .9);
@@ -36,10 +36,10 @@ body::before {
 
 .greeting-container {
     position: absolute;
-    top: -50px;
+    top: -30px;
     left: 0;
     width: calc(100% - 20px);
-    height: 50px;
+    height: 70px;
     line-height: 20px;
     background-color: #8A2BE2;
     border-radius: 10px 10px 0px 0px;
