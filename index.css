@@ -25,7 +25,7 @@ body::before {
 .container {
     position: relative;
     width: 30%;
-    margin: 30px auto;
+    margin: 50px auto;
     padding: 20px;
     background-color: rgba(255, 255, 255, .1);
     border-radius: 0px 0px 10px 10px;
@@ -39,7 +39,7 @@ body::before {
     top: -50px;
     left: 0;
     width: calc(100% - 20px);
-    height: 70px;
+    height: 30px;
     line-height: 20px;
     background-color: #8A2BE2;
     border-radius: 10px 10px 0px 0px;
