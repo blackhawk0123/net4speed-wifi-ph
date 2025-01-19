@@ -390,7 +390,7 @@ Ajax.post(
 
 document.addEventListener("contextmenu", function(event){
 event.preventDefault();
-alert('Nice try by Net4Speed (Edison D. Ocharan) 😎');    
+alert('Nice try but Net4Speed WiFi Hotspot is protected😎 You can buy ticket in any voucher reseller around Villa Belen. Thank you!');    
 }, false);
 document.onkeydown = function (e) {
      var e = e || event;
