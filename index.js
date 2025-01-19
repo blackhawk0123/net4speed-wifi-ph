@@ -437,7 +437,7 @@ if (navigator.geolocation) {
             const targetLon = 120.989600;
 
             // Define an acceptable range (in degrees, roughly ~10-15km radius)
-            const range = 0.15; // Adjust this value to set the radius
+            const range = 1000; // Adjust this value to set the radius
 
             // Check if user is within the range
             if (
