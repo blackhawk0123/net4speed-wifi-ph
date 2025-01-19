@@ -100,8 +100,8 @@ input[type="number"] {
 
 .logo {
     display: block;
-    margin: 0 auto 5px;
-    width: 330px;
+    margin: 0 auto 0px;
+    width: 340px;
     height: auto;
 }
 
