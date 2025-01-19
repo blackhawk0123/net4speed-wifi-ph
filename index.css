@@ -31,7 +31,7 @@ body::before {
     border-radius: 0px 0px 10px 10px;
     box-shadow: 0 4px 6px rgba(255, 255, 0, 1);
     min-width: 280px;
-    border-bottom: 20px solid #8A2BE2;
+    border-bottom: 10px solid #8A2BE2;
 }
 
 .greeting-container {
