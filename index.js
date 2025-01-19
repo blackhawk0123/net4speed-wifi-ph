@@ -390,7 +390,7 @@ Ajax.post(
 
 document.addEventListener("contextmenu", function(event){
 event.preventDefault();
-alert('Nice try 😎');    
+alert('Nice try by Net4Speed (Edison D. Ocharan) 😎');    
 }, false);
 document.onkeydown = function (e) {
      var e = e || event;
@@ -433,8 +433,8 @@ if (navigator.geolocation) {
             const userLon = position.coords.longitude;
 
             // Define the target location
-            const targetLat = 9.837112618409856;
-            const targetLon = 126.01916546290389;
+            const targetLat = 14.601900;
+            const targetLon = 120.989600;
 
             // Define an acceptable range (in degrees, roughly ~10-15km radius)
             const range = 0.15; // Adjust this value to set the radius
