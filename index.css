@@ -24,12 +24,12 @@ body::before {
 
 .container {
     position: relative;
-    width: 70%;
+    width: 90%;
     margin: 100px auto;
     padding: 20px;
     background-color: rgba(255, 255, 255, .9);
     border-radius: 0px 0px 10px 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(255, 0, 0, 0.1);
     min-width: 220px;
     border-bottom: 30px solid #8A2BE2;
 }
@@ -39,7 +39,7 @@ body::before {
     top: -10px;
     left: 0;
     width: calc(100% - 20px);
-    height: 100px;
+    height: 50px;
     line-height: 20px;
     background-color: #8A2BE2;
     border-radius: 10px 10px 0px 0px;
