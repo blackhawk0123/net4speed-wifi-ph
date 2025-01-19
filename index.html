@@ -1,5 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
+ <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lightning Background</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #000; /* Dark background for contrast */
+      overflow: hidden;
+      font-family: Arial, sans-serif;
+      color: white;
+    }
+
+    /* The lightning container */
+    .lightning {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 60%);
+      opacity: 0;
+      pointer-events: none;
+      animation: lightning 5s infinite;
+    }
+
+    /* Lightning keyframes */
+    @keyframes lightning {
+      0%, 100% {
+        opacity: 0;
+      }
+      10% {
+        opacity: 1;
+      }
+      11%, 13% {
+        opacity: 0.5;
+      }
+      14% {
+        opacity: 1;
+      }
+      15%, 100% {
+        opacity: 0;
+      }
+    }
+
+    h1 {
+      z-index: 10;
+    }
+  </style>
+  
 <style>
 /* customizable snowflake styling */
 .snowflake {
