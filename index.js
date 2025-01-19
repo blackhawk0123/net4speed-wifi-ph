@@ -171,11 +171,11 @@ function setGreeting() {
     if (currentHour >= 0 && currentHour < 5) {
         greetingContainer.textContent = "Good Morning Net4Speed User!😴💤";
     } else if (currentHour >= 5 && currentHour < 12) {
-        greetingContainer.textContent = "Good Morning Net4Speed User!  🌞☕";
+        greetingContainer.textContent = "Good Morning Net4Speed User!🌞☕";
     } else if (currentHour >= 12 && currentHour < 18) {
-        greetingContainer.textContent = "Good AfternoonNet4Speed User!  🌤️😎";
+        greetingContainer.textContent = "Good Afternoon Net4Speed User!🌤️😎";
     } else {
-        greetingContainer.textContent = "Good Evening Net4Speed User!  🌙🥂";
+        greetingContainer.textContent = "Good Evening Net4Speed User!🌙🥂";
     }
 }
 
