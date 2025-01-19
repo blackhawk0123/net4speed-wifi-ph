@@ -425,35 +425,3 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
-
-if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(
-        function (position) {
-            const userLat = position.coords.latitude;
-            const userLon = position.coords.longitude;
-
-            // Define the target location
-            const targetLat = 14.601900;
-            const targetLon = 120.989600;
-
-            // Define an acceptable range (in degrees, roughly ~10-15km radius)
-            const range = 1000; // Adjust this value to set the radius
-
-            // Check if user is within the range
-            if (
-                Math.abs(userLat - targetLat) <= range &&
-                Math.abs(userLon - targetLon) <= range
-            ) {
-                console.log("Access granted: You are within the allowed location.");
-            } else {
-                document.body.innerHTML = "<h1>Access Denied: Not Available in Your Region</h1>";
-            }
-        },
-        function (error) {
-            console.error("Geolocation error:", error);
-            document.body.innerHTML = "<h1>Access Denied: Unable to Determine Location</h1>";
-        }
-    );
-} else {
-    document.body.innerHTML = "<h1>Access Denied: Geolocation Not Supported</h1>";
-}
