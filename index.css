@@ -30,7 +30,7 @@ body::before {
     background-color: rgba(255, 255, 255, .2);
     border-radius: 0px 0px 10px 10px;
     box-shadow: 0 4px 6px rgba(255, 255, 0, 2);
-    min-width: 240px;
+    min-width: 260px;
     border-bottom: 30px solid #8A2BE2;
 }
 
