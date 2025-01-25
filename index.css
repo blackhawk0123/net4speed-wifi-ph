@@ -83,7 +83,7 @@ input[type="number"] {
 }
 
 #button-login {
-    width: 100%;
+    width: 60%;
     padding: 10px 0;
     border: none;
     background-color: #00A74F;
