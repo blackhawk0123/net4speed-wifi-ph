@@ -84,20 +84,31 @@ input[type="number"] {
 
 #button-login {
     width: 60%;
-    padding: 10px 0;
+    padding: 15px 40px;
     border: none;
-    background-color: #00A74F;
-    color: #fff;
-    border-radius: 100px;
-    cursor: pointer;
-    font-size: 20px;
+    font-size: 1.2rem;
     font-weight: bolder;
+    background-color: #00A74F;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: #fff;
+    border-radius: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
 
 #button-login:hover {
-    background-color: #009647;
+     transform: translateY(-2px);
+     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
 }
+#login-button:focus {
+      outline: 2px solid rgba(255, 255, 255, 0.6);
+      outline-offset: 4px;
+    }
 
+#login-button:active {
+      transform: translateY(2px);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
 .logo {
     display: block;
     margin: 0 auto 2px;
