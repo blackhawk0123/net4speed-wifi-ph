@@ -51,6 +51,12 @@ h1 {
     color: #000000;
 }
 
+h2 {
+    text-align: center;
+    color: #000000;
+    font-weight: bolder;
+}
+
 h3 {
     text-align: left;
     color: #ffffff;
