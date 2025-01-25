@@ -76,7 +76,7 @@ input[type="number"] {
     width: calc(100% - 22px);
     padding: 10px 11px;
     border: 1px solid #ccc;
-    border-radius: 20px;
+    border-radius: 50px;
     text-align: center;
     font-size: 21px;
     font-weight: bold;
