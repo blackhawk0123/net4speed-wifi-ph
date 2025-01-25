@@ -26,7 +26,7 @@ body::before {
     position: relative;
     width: 20%;
     margin: 30px auto;
-    padding: 10px;
+    padding: 20px;
     background-color: rgba(255, 255, 255, .2);
     border-radius: 10px 10px 10px 10px;
     box-shadow: 0 4px 6px rgba(255, 255, 0, 2);
