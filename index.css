@@ -63,7 +63,7 @@ p {
 }
 
 .input-voucher {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 label {
@@ -76,7 +76,7 @@ input[type="number"] {
     width: calc(100% - 22px);
     padding: 10px 11px;
     border: 1px solid #ccc;
-    border-radius: 50px;
+    border-radius: 10px;
     text-align: center;
     font-size: 21px;
     font-weight: bold;
