@@ -178,6 +178,46 @@
            </div>
         <div id="oper-hint" class="oper-hint">
         </div>
+   <style>
+   table {
+      border-collapse: separate; /* Allows spacing between border and cells */
+      border-spacing: 0; /* No extra space between cells */
+      background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient background for border */
+      border: 2px solid transparent; /* Outer border */
+      border-radius: 10px; /* Rounded corners */
+      overflow: hidden;
+      position: relative;
+    }
+
+    table::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: white; /* Inner table background */
+      z-index: -1;
+      border-radius: 5px; /* Matches the inner border radius */
+      margin: 5px; /* Same as the border width */
+    }
+
+    th, td {
+      padding: 15px 20px;
+      text-align: left;
+      background: white; /* Background for individual cells */
+    }
+
+    th {
+      background-color: #f4f4f4;
+      font-weight: bold;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    tr:hover {
+      background-color: #f1f1f1;
+    }
+  </style>
 <div>
 	<table style="width:100%">
 <font color="#FFFF00">
@@ -185,13 +225,7 @@
      </font>
 	</table>
     </div>
-<style>
-table, th, td {
 
-  border: 1.5px solid white;
-   border-radius: 10px;
-}
-</style>
 <table style="width:100%">
   <tr>
     <center><th style="color:white; border-color: #FFFF00; background-color:gray;">PRICE</th></center>
