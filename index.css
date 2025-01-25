@@ -224,39 +224,3 @@ input[type=number] {
     margin-bottom: 0.5em; /* Space between list items */
     line-height: 1.5; /* Adjust line height for readability */
 }
-
-/* Preloader styles */
-#preloader {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 9999;
-    background-color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.loader {
-    width: 60px;
-    aspect-ratio: 1;
-    background: 
-        linear-gradient(45deg,#00A651 50%,#0000 0),
-        linear-gradient(45deg,#0000 50%,#00A651 0),
-        linear-gradient(-45deg,#3B71B7 50%,#0000 0),
-        linear-gradient(-45deg,#0000 50%,#3B71B7 0),
-        linear-gradient(#EECC53 0 0);
-    background-size: 50% 50%;
-    background-repeat: no-repeat;
-    animation: l18 0.4s infinite;
-}
-
-@keyframes l18 {
-    0%   {background-position:50% 50%,50% 50%,50% 50%,50% 50%,50% 50%}
-    25%  {background-position:0 100%,100% 0,50% 50%,50% 50%,50% 50%}
-    50%  {background-position:0 100%,100% 0,100% 100%,0 0,50% 50%}
-    75%  {background-position:50% 50%,50% 50%,100% 100%,0 0,50% 50%}
-    100% {background-position:50% 50%,50% 50%,50% 50%,50% 50%,50% 50%}
-}
