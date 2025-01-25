@@ -164,15 +164,21 @@ table, th, td {
 <!--Enjoy music background 1>
 
 <!-- Background Music -->
- <iframe id="audio"
+        <iframe id="audio"
             src="https://player.vimeo.com/video/1050258429?autoplay=1&loop=1&muted=2&background=0`" 
             width="640" 
             height="360" 
             frameborder="0" 
             allow="autoplay; fullscreen; picture-in-picture" 
-            unmuted = true;
             allowfullscreen>
         </iframe>
+  <script>
+    window.onload = function() {
+      const audio = document.getElementById('audio');
+      audio.muted = false; // Unmute the audio
+      audio.play(); // Start playing
+    };
+  </script>
 
 
 	
